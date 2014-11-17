@@ -6,10 +6,11 @@ L.Control.MiniMap = L.Control.extend({
 		zoomLevelFixed: false,
 		zoomAnimation: false,
 		autoToggleDisplay: false,
+		zoomDisplayControl: false,
 		width: 150,
 		height: 150,
-		aimingRectOptions: {color: "#ff7800", weight: 1, clickable: false},
-		shadowRectOptions: {color: "#000000", weight: 1, clickable: false, opacity:0, fillOpacity:0}
+		aimingRectOptions: {color: "#000000", weight: 1, clickable: false}, // SIMON
+		shadowRectOptions: {color: "#FF0000", weight: 1, clickable: false, opacity:0, fillOpacity:0} 
 	},
 	
 	hideText: 'Hide MiniMap',
